@@ -20,7 +20,7 @@ from sklearn.metrics import (
 )
 import numpy as np
 
-df = pd.read_csv('/content/lung_cancer_dataset (1).csv')
+df = pd.read_csv('lung_cancer_dataset (1).csv')
 
 numeric_features = ["age", "pack_years"]
 categorical_features = ['gender', 'radon_exposure', 'asbestos_exposure', 'secondhand_smoke_exposure', 'copd_diagnosis', 'alcohol_consumption', 'family_history']
