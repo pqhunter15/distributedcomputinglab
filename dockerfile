@@ -7,8 +7,8 @@ FROM python:3.12.6-slim
 #             python3 \
 #             python3-pip
 
-## Install sklearn and panda
-RUN python -m pip install scikit-learn pandas
+## Install sklearn, pandas and numpy
+RUN python -m pip install scikit-learn pandas numpy
 
 ## Create a directory for the lab
 RUN mkdir /pqhlab
