@@ -15,4 +15,4 @@ RUN mkdir /pqhlab
 WORKDIR /pqhlab
 
 ## Copy the training files
-COPY ./train.py /lab/train.py
+COPY ./lungcancer.py /pqhlab/lungcancer.py
