@@ -5,8 +5,8 @@ metadata:
 spec:
   restartPolicy: Never
   containers:
-  - name: instructor-sklearn
-    image: crdsba6190deveastus001.azurecr.io/instructor_sklearn:latest
+  - name: pqhdistributedcomputelab
+    image: crdsba6190deveastus001.azurecr.io/pqhdistributedcomputelab:latest
     volumeMounts:
       - name: datalake
         mountPath: "/mnt/datalake/"
