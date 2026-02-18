@@ -41,7 +41,7 @@ The lab demonstrates how machine learning workloads can be packaged, deployed, a
 └── README.md
 
 ```
-Distributed Computing Workflow
+### Distributed Computing Workflow
 
 This project follows a typical cloud-native execution pipeline:
 
@@ -55,7 +55,7 @@ This project follows a typical cloud-native execution pipeline:
 
 This mirrors real-world distributed ML and data engineering deployments.
 
-Running the Project
+### Running the Project
 Prerequisites:
   - Docker installed
   - Kubernetes cluster (local or cloud)
@@ -76,4 +76,21 @@ kubectl logs <pod-name>
 
 #Cleanup
 kubectl delete -f pod.yml
+```
+
+## Key Concepts Demonstrated
+  - Containerized computation
+  - Distributed workload execution
+  - Kubernetes pod orchestration
+  - Infrastructure configuration via YAML
+  - Reproducible compute environments
+
+## Learning Outcomes
+
+Through this lab, I gained hands-on experience with:
+  - Deploying Python workloads in containerized environments
+  - Understanding how distributed systems execute compute jobs
+  - Using Kubernetes to manage application lifecycle
+  - Applying DevOps principles to data science workloads
+  - Bridging machine learning workflows with cloud infrastructure
 
